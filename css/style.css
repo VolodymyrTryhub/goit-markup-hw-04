@@ -412,6 +412,12 @@ a {
 .footer-block {
     background-color: #2e2f42;
     padding: 100px 0;
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.footer-info {
+    max-width: 264px;
 }
 
 .footer-block-paragraph {
@@ -420,13 +426,32 @@ a {
     letter-spacing: 0.02em;
 }
 
-.footer-container { 
-    max-width: 264px;
-    margin-left: 156px;
+.footer-social { 
+    display: flex;
+    flex-direction: column;
 }
 
+.footer-container {
+    display: flex;
+    align-items: flex-start;
+    gap: 120px;
+}
 
+.footer-social-title {
+    margin-bottom: 16px;
+    color: #fff;
+}
 
+.footer-social-list {
+    display: flex;
+    gap: 16px;
+    list-style: none;
+}
+
+.footer-social-icon {
+    fill: #4D5AE5;
+    stroke: #f4f4fd;
+}
 
 
 
