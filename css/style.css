@@ -341,9 +341,13 @@ a {
     
 }
 
-.social-link:hover,
-.social-link:focus {
+.social-link a:hover,
+.social-link a:focus {
     background-color: #404BBF;
+}
+
+.social-item {
+    transform: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 /* :root {
@@ -516,10 +520,10 @@ a {
     line-height: 1.5;
     letter-spacing: 0.02em;
 }
-
+/* 
 .footer-social-list {
     margin-right: 120px;
-} 
+}  */
 
 .social-list {
     display: flex;
@@ -548,7 +552,7 @@ a {
     background-color: #31d0aa;
 }
 
-.social-icon {
+.footer-social-icon {
     width: 24px;
     height: 24px;
     fill: #4D5AE5;
