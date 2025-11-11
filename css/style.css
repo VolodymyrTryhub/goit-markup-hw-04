@@ -451,29 +451,6 @@ a {
     border-top: none;
 }
 
-
-.overlay-text {
-    color: #f4f4fd;
-    font-size: 16px;
-    line-height: 1.5;
-}
-
-.portfolio-text-wrapper {
-    padding: 32px 16px;
-}
-
-.portfolio-item-title {
-    font-size: 20px;
-    font-weight: 500;
-    margin-bottom: 8px;
-    color: #2e2f42;
-}
-
-.portfolio-item-category {
-    color: #434455;
-    font-size: 16px;
-}
-
 /*footer*/
 .footer-block-web {
     font-family: 'Raleway', sans-serif;
