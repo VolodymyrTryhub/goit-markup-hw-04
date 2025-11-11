@@ -506,8 +506,8 @@ a {
 
 .footer-info {
     max-width: 264px;
-    /* margin-left: 156px;
-    margin-right: 120px; */
+    /* margin-left: 156px;*/
+    margin-right: 120px; 
 }
 
 .footer-block-paragraph {
@@ -521,7 +521,7 @@ a {
     align-items: baseline;
     max-width: 1440px;
     margin: 0 auto;
-    gap: 120px;
+    /* gap: 120px; */
     padding-left: 156px;
 }
 
@@ -534,9 +534,9 @@ a {
     letter-spacing: 0.02em;
 }
  
-.footer-social-list {
+/* .footer-social-list {
     margin-right: 120px;
-} 
+}  */
 
 .social-icon-item {
     display: flex;
